@@ -248,7 +248,7 @@ blacklist_help: |
 chatbot_help: |
     ──「 Chatbot AI 」──
 
-    Siesta AI is the only ai system which can detect & reply upto 200 language's
+    Chrollo AI is the only ai system which can detect & reply upto 200 language's, currently broken.
 
     ❂ /chatbot [ON/OFF]: Enables and disables AI Chat mode.
     ❂ /chatbot EN : Enables English only chatbot.
@@ -344,7 +344,7 @@ fsub_feds_help: |
 
     *Force Subscribe:*
 
-    Siesta can mute members who are not subscribed your channel until they subscribe When enabled I will mute unsubscribed members and show them a unmute button. When they pressed the button I will unmute them
+    Chrollo can mute members who are not subscribed your channel until they subscribe When enabled I will mute unsubscribed members and show them a unmute button. When they pressed the button I will unmute them
 
     *Setup* *:* *Only creator*
     ❂ Add me in your group as admin
@@ -390,7 +390,7 @@ FED_OWNER_HELP: |
 FED_ADMIN_HELP: |
     ──「 Feds 」──
 
-    *🔱 Fed Admins:*
+    *🕸️ Fed Admins:*
     ❂ `/fban <user> <reason>`*:* Fed bans a user
     ❂ `/unfban <user> <reason>`*:* Removes a user from a fed ban
     ❂ `/fedinfo <fed_id>`*:* Information about the specified Federation
@@ -559,7 +559,7 @@ info_and_afk_help: |
       - brb <reason>: Same as the afk command, but not a command. 
       
     *What is that health thingy?*
-    Come and see [HP System explained](https://t.me/KennedyProject/44)
+    Come and see [HP System explained](https://t.me/Troupe_Updates/6)
 locks_help: |
     ──「 Locks 」──
 
@@ -663,9 +663,9 @@ search_help: |
     ❂ /github <username>*:* Get information about a GitHub user.
     ❂ /country <country name>*:* Gathering info about given country
     ❂ /imdb <Movie name>*:* Get full info about a movie with imdb.com
-    ❂ Siesta <query>*:* Siesta answers the query
+    ❂ Chrollo <query>*:* Chrollo answers the query
 
-    💡 Ex : `Siesta where is Japan?`
+    💡 Ex : `Chrolli where is Japan?`
 stickers_help: |
     ──「 Stickers 」──
 

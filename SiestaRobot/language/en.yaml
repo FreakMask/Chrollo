@@ -1,7 +1,7 @@
 # Language name in their native
 language: "English 🇬🇧"
 # name of people(s) who worked on this translation
-authors: "@saint_foire"
+authors: "@Freaking_tag"
 
 # languages
 curr_chat_lang: "Hey. Your current language is {}, select the one you want from the buttons below :)"
@@ -9,37 +9,37 @@ set_chat_lang: "Great, using {} Language it is from now on!"
 
 # PM Text
 pm_start_text: |
-  *Hey Darling, {} ❤️*
-  ✪ I'm an anime-theme management robot [✨](https://telegra.ph/file/6d3e3ef24f64fb6e35df0.jpg)
+  *Hey there, {} 🕸️*
+  ✣ I'm an anime-theme management robot [🕸️](https://telegra.ph/file/6d3e3ef24f64fb6e35df0.jpg)
 
-  ┏━━━━━━━━•❃°•°❀°•°❃•━━━━━━━━┓
-  × *Server Uptime :* `{}`
-  × `{}` *users, across* `{}` *chats.*
-  ┗━━━━━━━━•❃°•°❀°•°❃•━━━━━━━━┛
+  ⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏
+  » *Server Uptime :* `{}`
+  » `{}` *users, across* `{}` *chats.*
+  ⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏⚏
 
-  ✪ Hit /help to see my available commands.
+  ✣ F**k the /help to see my available commands.
    
 group_start_text: |
-  *👋🏻 Hi Darling, I'm Arvino Robot!*
+  *Hello Hunters, I'm Chrollo Lucifer, head if the Spiders!*
   
-  *Started active since :* `{}`
+  *Working since :* `{}`
 
 pm_about_text: |
-  ✺ Hey Darling I'm *Siesta Robot*, a powerful group management bot built to help you manage your group easily. ✺
+  ✣ Hello Hunters I'm *Chrollo Lucifer*, a powerful group managing bot built to help people manage there groups easily. ✣
 
-  ✪ I can restrict users.
-  ✪ I can greet users with customizable welcome messages and even set a group's rules.
-  ✪ I have an advanced anti-flood system.
-  ✪ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
-  ✪ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
-  ✪ I check for admins' permissions before executing any command and more stuffs
+  ࿇ I can restrict users.
+  ࿇ I can greet users with customizable welcome messages and even set a group's rules.
+  ࿇ I have an advanced anti-flood system.
+  ࿇ I can warn users until they reach max warns, with each predefined actions such as ban, mute, kick, etc.
+  ࿇ I have a note keeping system, blacklists, and even predetermined replies on certain keywords.
+  ࿇ I check for admins' permissions before executing any command and more stuffs
 
-  _Siesta's licensed under the GNU General Public License v3.0_
-  Click on button bellow to get basic help for Siesta Robot.
+  _Chrollo's licensed under the GNU General Public License v3.0_
+  Click on button bellow to get basic help for Chrollo Lucifer.
 pm_about_admin_text: |
-  *✺ Let's make your group bit effective now ✺*
+  *✣ Let's make your group bit effective now ✣*
 
-  Congragulations, Siesta Robot now ready to manage your group.
+  Congragulations, Chrollo Lucifer is now ready to manage your group.
 
   *Admin Tools*
   Basic Admin tools help you to protect and powerup your group.
@@ -49,20 +49,20 @@ pm_about_admin_text: |
   Lets set a welcome message to welcome new users coming to your group.
   Send `/setwelcome [message]` to set a welcome message!
 pm_about_notes_text: |
-  *✺ Setting up notes ✺*
+  *✣ Setting up notes ✣*
 
-  ✪ You can save message/media/audio or anything as notes to get a note simply use # at the beginning of a word
-  ✪ You can also set buttons for notes and filters (refer help menu)
+  ✣ You can save message/media/audio or anything as notes to get a note simply use # at the beginning of a word
+  ✣ You can also set buttons for notes and filters (refer help menu)
 pm_about_support_text: |
-  *✺ Siesta Robot support chats ✺*
+  *🕸️ Phantom Troupes support chats 🕸️*
 
-  Join My Support Group/Channel for see or report a problem on Siesta.
+  Join Phantom Troupes and Troupe Updates to report queries and to get notified about the latest updates.
 pm_about_credit_text: |
-  *✺ Credis for Siesta ✺*
+  *Base Of Chrollo*
 
-  Here Developers Making And Give Inspiration For Made The Siesta Robot
+  Here are the base of Chrollo those are Phantom Troupes, Troupe Headquarters and Troupe Updates
 pm_help_text: |
-  *✺ Click on the button bellow to get description about specifics command. ✺*
+  *✣ Click on the button bellow to get description about specifics command. ✣*
 pm_help_module_text: "Here is the help for the *{}* module :\n\n"
 
 # Group Help Text
@@ -82,14 +82,14 @@ group_settings_text: "Click here to get this chat's settings, as well as yours."
 group_settings_button: "Settings"
 
 # PM Button
-add_bot_to_group_button: "♕ Add Me To Your Group ♕"
-support_chat_link_button: "Support"
-updates_channel_link_button: "Update"
+add_bot_to_group_button: "🕸️ Add Chrollo 🕸️"
+support_chat_link_button: "Troupes 🕸️"
+updates_channel_link_button: "Updates 🚨"
 notes_button: "Notes"
 source_button: "Source Code"
-help_button: "Get Help"
-back_button: "Go back"
-about_button: "About Siesta Robot"
+help_button: "Help ⁉️"
+back_button: "Back to Blackhole"
+about_button: "About Chrollo Lucifer ⁉️"
 inline_button: "Try inline!​​"
 
 # MODULES

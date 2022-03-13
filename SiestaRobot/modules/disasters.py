@@ -484,7 +484,7 @@ def tigerlist(update: Update, context: CallbackContext):
 def supportlist(update: Update, context: CallbackContext):
     bot = context.bot
     m = update.effective_message.reply_text(
-        "<code>Gathering Hunters..</code>",
+        "<code>Gathering info..</code>",
         parse_mode=ParseMode.HTML,
     )
     reply = "<b>Known Zoldycks🩸:</b>\n"
@@ -546,20 +546,20 @@ UNSUDO_HANDLER = CommandHandler(
     ("removesudo", "removezodiac"), removesudo, run_async=True
 )
 UNSUPPORT_HANDLER = CommandHandler(
-    ("removesupport", "removehunter"), removesupport, run_async=True
+    ("removesupport", "removezoldyck"), removesupport, run_async=True
 )
 UNTIGER_HANDLER = CommandHandler(("removebounty"), removetiger, run_async=True)
 UNWHITELIST_HANDLER = CommandHandler(
     ("removewhitelist", "removehunter"), removewhitelist, run_async=True
 )
 WHITELISTLIST_HANDLER = CommandHandler(
-    ["whitelistlist", "hunter"], whitelistlist, run_async=True
+    ["whitelistlist", "hunters"], whitelistlist, run_async=True
 )
-TIGERLIST_HANDLER = CommandHandler(["bounty hunter"], tigerlist, run_async=True)
+TIGERLIST_HANDLER = CommandHandler(["bountyhunters"], tigerlist, run_async=True)
 SUPPORTLIST_HANDLER = CommandHandler(
-    ["supportlist", "zoldyck"], supportlist, run_async=True
+    ["supportlist", "zoldycks"], supportlist, run_async=True
 )
-SUDOLIST_HANDLER = CommandHandler(["sudolist", "zodiac"], sudolist, run_async=True)
+SUDOLIST_HANDLER = CommandHandler(["sudolist", "zodiacs"], sudolist, run_async=True)
 DEVLIST_HANDLER = CommandHandler(["devlist", "troupes"], devlist, run_async=True)
 
 dispatcher.add_handler(SUDO_HANDLER)

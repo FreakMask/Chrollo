@@ -92,9 +92,9 @@ useragent = "Mozilla/5.0 (Linux; Android 9; SM-G960F Build/PPR1.180610.011; wv) 
 opener.addheaders = [("User-agent", useragent)]
 
 
-@register(pattern=r"^/reverse(?: |$)(\d*)")
+@register(pattern=r"^/pp(?: |$)(\d*)")
 async def okgoogle(img):
-    """For .reverse command, Google search images and stickers."""
+    """For .pp command, Google search images and stickers."""
     if os.path.isfile("okgoogle.png"):
         os.remove("okgoogle.png")
 
@@ -107,7 +107,7 @@ async def okgoogle(img):
         return
 
     if photo:
-        dev = await img.reply("`Processing...`")
+        dev = await img.reply("`Searching for results in Phantom Database...`")
         try:
             image = Image.open(photo)
         except OSError:
@@ -124,8 +124,8 @@ async def okgoogle(img):
 
         if response != 400:
             await dev.edit(
-                "`Image successfully uploaded to Google. Maybe.`"
-                "\n`Parsing source now. Maybe.`"
+                "`Finding results from Phantom Database. Maybe.`"
+                "\n`Uploading source now. Maybe.`"
             )
         else:
             await dev.edit("`Google told me to fuck off.`")

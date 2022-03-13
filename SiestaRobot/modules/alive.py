@@ -9,16 +9,16 @@ from SiestaRobot.events import register
 from SiestaRobot import telethn as tbot
 
 
-PHOTO = "https://telegra.ph/file/e1432a4d1cd6ecb4542df.jpg"
+PHOTO = "https://telegra.ph/file/e0476d15503157bfb7795.jpg"
 
 @register(pattern=("/alive"))
 async def awake(event):
-  TEXT = f"**Hello [{event.sender.first_name}](tg://user?id={event.sender.id}), I'm Kurapika Kurta.** \n\n"
-  TEXT += "🩸 **I'm Working Properly** \n\n"
-  TEXT += f"🩸 **My Master : [Freak🎭](https://t.me/freaking_tag)** \n\n"
-  TEXT += f"🩸 **Library Version :** `{telever}` \n\n"
-  TEXT += f"🩸 **Telethon Version :** `{tlhver}` \n\n"
-  TEXT += f"🩸 **Pyrogram Version :** `{pyrover}` \n\n"
-  TEXT += "**Thanks For Adding Me Here 🔗**"
-  BUTTON = [[Button.url("Help", "https://t.me/Kurapika_Robot?start=help"), Button.url("Support", "https://t.me/Kurta_Clan")]]
+  TEXT = f"**Hello [{event.sender.first_name}](tg://user?id={event.sender.id}), I'm Chrollo Lucifer.** \n\n"
+  TEXT += "🕷️ **The Spider Head is working properly** \n\n"
+  TEXT += f"🕷️ **Committee: [Hunter Committee](https://t.me/Hunter_Committee)** \n\n"
+  TEXT += f"🕷️ **Library Version :** `{telever}` \n\n"
+  TEXT += f"🕷️ **Telethon Version :** `{tlhver}` \n\n"
+  TEXT += f"🕷️ **Pyrogram Version :** `{pyrover}` \n\n"
+  TEXT += "**Thanks For Adding Me Here 🕸️**"
+  BUTTON = [[Button.url("Help ‼️", "https://t.me/Chrollo_Bot?start=help"), Button.url("Troupes 🕸️", "https://t.me/Phantom_Troupes")]]
   await tbot.send_file(event.chat_id, PHOTO, caption=TEXT,  buttons=BUTTON)

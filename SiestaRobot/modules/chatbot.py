@@ -58,17 +58,17 @@ async def hmm(_, message):
         lel = await edit_or_reply(message, "`Processing...`")
         lol = add_chat(int(message.chat.id))
         if not lol:
-            await lel.edit("Siesta AI Already Activated In This Chat")
+            await lel.edit("Chrollo AI Already Activated In This Chat")
             return
-        await lel.edit(f"Siesta AI Actived by {message.from_user.mention()} for users in {message.chat.title}")
+        await lel.edit(f"Chrollo AI Actived by {message.from_user.mention()} for users in {message.chat.title}")
 
     elif status == "OFF" or status == "off" or status == "Off":
         lel = await edit_or_reply(message, "`Processing...`")
         Escobar = remove_chat(int(message.chat.id))
         if not Escobar:
-            await lel.edit("Siesta AI Was Not Activated In This Chat")
+            await lel.edit("Chrollo AI Was Not Activated In This Chat")
             return
-        await lel.edit(f"Siesta AI Deactivated by {message.from_user.mention()} for users in {message.chat.title}")
+        await lel.edit(f"Chrollo AI Deactivated by {message.from_user.mention()} for users in {message.chat.title}")
 
     elif status == "EN" or status == "en" or status == "english":
         if not chat_id in en_chats:

@@ -254,24 +254,24 @@ def info(update: Update, context: CallbackContext):
     else:
         return
 
-    rep = message.reply_text("<code>Getting info...</code>", parse_mode=ParseMode.HTML)
+    rep = message.reply_text("<code>Searching info in Phantom Database...</code>", parse_mode=ParseMode.HTML)
 
     text = (
-        f"╔═━「<b> Appraisal results:</b> 」\n"
-        f"✪ ID: <code>{user.id}</code>\n"
-        f"✪ First Name: {html.escape(user.first_name)}"
+        f"╔═━「<b> Troupe Data results:</b> 」\n"
+        f"✣ ID: <code>{user.id}</code>\n"
+        f"✣ First Name: {html.escape(user.first_name)}"
     )
 
     if user.last_name:
-        text += f"\n✪ Last Name: {html.escape(user.last_name)}"
+        text += f"\n✣ Last Name: {html.escape(user.last_name)}"
 
     if user.username:
-        text += f"\n✪ Username: @{html.escape(user.username)}"
+        text += f"\n✣ Username: @{html.escape(user.username)}"
 
-    text += f"\n✪ Userlink: {mention_html(user.id, 'link')}"
+    text += f"\n✣ Userlink: {mention_html(user.id, 'link')}"
 
     if chat.type != "private" and user_id != bot.id:
-        _stext = "\n✪ Presence: <code>{}</code>"
+        _stext = "\n✣ Presence: <code>{}</code>"
 
         afk_st = is_afk(user.id)
         if afk_st:
@@ -301,25 +301,25 @@ def info(update: Update, context: CallbackContext):
     disaster_level_present = False
 
     if user.id == OWNER_ID:
-        text += "\n\nThe Disaster level of this person is 'King'."
+        text += "\n\nThe Troupe level of this Spider is 'Blacklisted Hunter'."
         disaster_level_present = True
     elif user.id in DEV_USERS:
-        text += "\n\nThis user is member of 'Prince'."
+        text += "\n\nThis Troupe level of this Spider is 'Troupe Members'."
         disaster_level_present = True
     elif user.id in DRAGONS:
-        text += "\n\nThe Disaster level of this person is 'Emperor'."
+        text += "\n\nThe Troupe level of this Spider is 'Zodiac'."
         disaster_level_present = True
     elif user.id in DEMONS:
-        text += "\n\nThe Disaster level of this person is 'Governor'."
+        text += "\n\nThe Troupe level of this Spider is 'Zoldyck'."
         disaster_level_present = True
     elif user.id in TIGERS:
-        text += "\n\nThe Disaster level of this person is 'Captain'."
+        text += "\n\nThe Troupe level of this Spider is 'Bounty Hunter'."
         disaster_level_present = True
     elif user.id in WOLVES:
-        text += "\n\nThe Disaster level of this person is 'Soldier'."
+        text += "\n\nThe Troupe level of this Spider is 'Hunter'."
         disaster_level_present = True
     elif user.id == 1829047705:
-         text += "\n\nOwner Of A Bot. Queen Of @excrybaby. Bot Name Inspired From 'JoJo'."
+         text += "\n\nOwner Of the Bot. Partner of @Freaking_tag. Bot Name Inspired From 'Hunter×Hunter'."
          disaster_level_present = True
 
     try:
@@ -356,9 +356,9 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "Health", url="https://t.me/KennedyProject/44"),
+                                "HP System", url="https://t.me/Troupe_Updates/6"),
                             InlineKeyboardButton(
-                                "Disaster", url="https://t.me/KennedyProject/43")
+                                "Troupes", url="https://t.me/Troupe_Updates/5")
                         ],
                     ]
                 ),
@@ -448,9 +448,9 @@ def set_about_me(update: Update, context: CallbackContext):
 
 @sudo_plus
 def stats(update: Update, context: CallbackContext):
-    stats = "<b>╔═━「 Current Siesta Statistics 」</b>\n" + "\n".join([mod.__stats__() for mod in STATS])
+    stats = "<b>╔═━「 Current Troupe Stats 」</b>\n" + "\n".join([mod.__stats__() for mod in STATS])
     result = re.sub(r"(\d+)", r"<code>\1</code>", stats)
-    result += "\n<b>╘═━「 Powered By Shiinobu 」</b>"
+    result += "\n<b>╘═━「 Powered By [Chrollo](https://t.me/Chrollo_Bot) 」</b>"
     update.effective_message.reply_text(
         result,
         parse_mode=ParseMode.HTML, 

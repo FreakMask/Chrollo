@@ -62,7 +62,7 @@ def reverse(update: Update, context: CallbackContext):
             img_link = splatargs[1]
             lim = 2
         else:
-            msg.reply_text("/reverse <link> <amount of images to return.>")
+            msg.reply_text("/pp <link> <amount of images to return.>")
             return
         try:
             urllib.request.urlretrieve(img_link, imagename)
@@ -99,8 +99,8 @@ def reverse(update: Update, context: CallbackContext):
         if response != 400:
             xx = bot.send_message(
                 chat_id,
-                "Image was successfully uploaded to Google."
-                "\nParsing it, please wait.",
+                "Searching for results in Phantom Database...."
+                "\nGetting results, please wait.",
                 reply_to_message_id=rtmid,
             )
         else:
@@ -205,7 +205,7 @@ def scam(imgspage, lim):
 
 
 REVERSE_HANDLER = DisableAbleCommandHandler(
-    "reverse", reverse, pass_args=True, admin_ok=True, run_async=True
+    "pp", reverse, pass_args=True, admin_ok=True, run_async=True
 )
 
 dispatcher.add_handler(REVERSE_HANDLER)

@@ -410,7 +410,7 @@ def gbanlist(update: Update, context: CallbackContext):
         update.effective_message.reply_document(
             document=output,
             filename="gbanlist.txt",
-            caption="Here is the list of currently gbanned users.",
+            caption="Here is the list of currently Murdered users!.",
         )
 
 

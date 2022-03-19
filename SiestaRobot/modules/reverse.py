@@ -38,7 +38,7 @@ def reverse(update: Update, context: CallbackContext):
         elif reply.document:
             file_id = reply.document.file_id
         else:
-            msg.reply_text("Reply to an image or sticker to lookup.")
+            msg.reply_text("Reply to an image or sticker nigger.")
             return
         image_file = bot.get_file(file_id)
         image_file.download(imagename)
@@ -62,7 +62,7 @@ def reverse(update: Update, context: CallbackContext):
             img_link = splatargs[1]
             lim = 2
         else:
-            msg.reply_text("/pp <link> <amount of images to return.>")
+            msg.reply_text("/reverse <link> <amount of images to return.>")
             return
         try:
             urllib.request.urlretrieve(img_link, imagename)
@@ -205,7 +205,7 @@ def scam(imgspage, lim):
 
 
 REVERSE_HANDLER = DisableAbleCommandHandler(
-    ("pp", "grs", "reverse"), reverse, pass_args=True, admin_ok=True, run_async=True
+    ("reverse"), reverse, pass_args=True, admin_ok=True, run_async=True
 )
 
 dispatcher.add_handler(REVERSE_HANDLER)

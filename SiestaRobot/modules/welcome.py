@@ -200,19 +200,19 @@ def new_member(update: Update, context: CallbackContext):  # sourcery no-metrics
             # Give the owner a special welcome
             if new_mem.id == OWNER_ID:
                 update.effective_message.reply_text(
-                    f"Welcome to {html.escape(chat.title)} my king.", reply_to_message_id=reply
+                    f"Welcome to {html.escape(chat.title)} Blacklisted Hunter.", reply_to_message_id=reply
                 )
                 welcome_log = (
                     f"{html.escape(chat.title)}\n"
                     f"#USER_JOINED\n"
-                    f"My King just joined the chat"
+                    f"Emergency Alert! Blacklisted Hunter just joined!"
                 )
                 continue
 
             # Welcome Devs
             if new_mem.id in DEV_USERS:
                 update.effective_message.reply_text(
-                    "Whoa! The Prince just joined!",
+                    "Watch out! A Troupe Member just joined!",
                     reply_to_message_id=reply,
                 )
                 continue
@@ -220,7 +220,7 @@ def new_member(update: Update, context: CallbackContext):  # sourcery no-metrics
             # Welcome Sudos
             if new_mem.id in DRAGONS:
                 update.effective_message.reply_text(
-                    "Huh! Emperor just joined! Stay Alert!",
+                    "Alert! A Zodiac just joined!",
                     reply_to_message_id=reply,
                 )
                 continue
@@ -228,7 +228,7 @@ def new_member(update: Update, context: CallbackContext):  # sourcery no-metrics
             # Welcome Support
             if new_mem.id in DEMONS:
                 update.effective_message.reply_text(
-                    "Huh! Someone with Captain just joined!",
+                    "Call for help! A Zoldyck just joined!",
                     reply_to_message_id=reply,
                 )
                 continue
@@ -236,7 +236,7 @@ def new_member(update: Update, context: CallbackContext):  # sourcery no-metrics
             # Welcome WOLVES
             if new_mem.id in WOLVES:
                 update.effective_message.reply_text(
-                    "Oof! A Soldier Users just joined!", reply_to_message_id=reply
+                    "Emergency! A Hunter just joined!", reply_to_message_id=reply
                 )
                 continue
                 
@@ -399,7 +399,7 @@ def new_member(update: Update, context: CallbackContext):  # sourcery no-metrics
                     f"[{escape_markdown(new_mem.first_name)}](tg://user?id={user.id})"
                 )
                 message = msg.reply_text(
-                    f"{new_join_mem}, click the button below to prove you're human.\nYou have 120 seconds.",
+                    f"{new_join_mem}, Click the button below to prove you're human.\nYou have 120 seconds.",
                     reply_markup=InlineKeyboardMarkup(
                         [
                             {
@@ -648,7 +648,7 @@ def left_member(update: Update, context: CallbackContext):  # sourcery no-metric
             # Give the devs a special goodbye
             if left_mem.id in DEV_USERS:
                 update.effective_message.reply_text(
-                    "See you later at the Eagle Union!",
+                    "See you later at the Phantom Troupes!",
                     reply_to_message_id=reply,
                 )
                 return

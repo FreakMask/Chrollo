@@ -98,7 +98,7 @@ async def okgoogle(img):
     if os.path.isfile("okgoogle.png"):
         os.remove("okgoogle.png")
 
-    message = await img.get_reply_message()
+    message = img.get_reply_message()
     if message and message.media:
         photo = io.BytesIO()
         await tbot.download_media(message, photo)

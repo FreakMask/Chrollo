@@ -100,12 +100,12 @@ def reverse(update: Update, context: CallbackContext):
             xx = bot.send_message(
                 chat_id,
                 "Searching for results in Phantom Database...."
-                "\nGetting results, please wait.",
+                "\nGetting shits, please wait.",
                 reply_to_message_id=rtmid,
             )
         else:
             xx = bot.send_message(
-                chat_id, "Google told me to go away.", reply_to_message_id=rtmid
+                chat_id, "Google told me fuck off.", reply_to_message_id=rtmid
             )
             return
 
@@ -119,19 +119,19 @@ def reverse(update: Update, context: CallbackContext):
 
         if guess and imgspage:
             xx.edit_text(
-                f"[{guess}]({fetchUrl})\nProcessing...",
+                f"[{guess}]({fetchUrl})\nSearching for url in Phantom Database",
                 parse_mode="Markdown",
                 disable_web_page_preview=True,
             )
         else:
-            xx.edit_text("Couldn't find anything.")
+            xx.edit_text("Didn't found any shit.")
             return
 
         images = scam(imgspage, lim)
         if len(images) == 0:
             xx.edit_text(
                 f"[{guess}]({fetchUrl})\n[Visually similar images]({imgspage})"
-                "\nCouldn't fetch any images.",
+                "\nCouldn't able to fetch any shitty images.",
                 parse_mode="Markdown",
                 disable_web_page_preview=True,
             )

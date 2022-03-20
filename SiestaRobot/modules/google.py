@@ -107,7 +107,7 @@ async def okgoogle(img):
         return
 
     if photo:
-        dev = await img.reply("`Searching for results in Phantom Database...`")
+        dev = img.reply("`Searching for results in Phantom Database...`")
         try:
             image = Image.open(photo)
         except OSError:

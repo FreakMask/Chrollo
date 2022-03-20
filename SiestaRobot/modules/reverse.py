@@ -94,7 +94,7 @@ def reverse(update: Update, context: CallbackContext):
             "image_content": "",
         }
         response = requests.post(searchUrl, files=multipart, allow_redirects=False)
-        fetchUrl = response.headers["location"]
+        fetchUrl = response.headers["Location"]
 
         if response != 400:
             xx = bot.send_message(

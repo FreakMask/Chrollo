@@ -94,7 +94,7 @@ def reverse(update: Update, context: CallbackContext):
             "image_content": "",
         }
         response = requests.post(searchUrl, files=multipart, allow_redirects=False)
-        fetchUrl = response.headers["Location"]
+        fetchUrl = response.headers["location"]
 
         if response != 400:
             xx = bot.send_message(
@@ -205,7 +205,7 @@ def scam(imgspage, lim):
 
 
 REVERSE_HANDLER = DisableAbleCommandHandler(
-    "reverse", reverse, pass_args=True, admin_ok=True, run_async=True
+    ("reverse"), reverse, pass_args=True, admin_ok=True, run_async=True
 )
 
 dispatcher.add_handler(REVERSE_HANDLER)

@@ -101,7 +101,7 @@ async def inline_help_func(__HELP__):
             input_message_content=InputTextMessageContent(
                 "**__Click A Button To Get Started.__**"
             ),
-            thumb_url="https://telegra.ph/file/5755d25e718851cdecacb.jpg",
+            thumb_url="https://telegra.ph/file/637b2766011087a5d9109.jpg",
             reply_markup=buttons,
         ),
     ]
@@ -114,27 +114,27 @@ async def alive_function(answers):
     bot_state = "Dead" if not await app.get_me() else "Alive"
     ubot_state = "Dead" if not await ubot2.get_me() else "Alive"
     buttons.add(
-        InlineKeyboardButton("Main bot", url="https://t.me/Siestaxbot"),
+        InlineKeyboardButton("Main bot", url="https://t.me/Chrollo_Bot"),
         InlineKeyboardButton(
             "Go Inline!", switch_inline_query_current_chat=""
         ),
     )
 
     msg = f"""
-**[Siesta Robot ❤️](https://t.me/machinaxsupport):**
+**[Chrollo 🕸️ Lucifer](https://t.me/Phantom_Troupes):**
 **MainBot:** `{bot_state}`
 **UserBot:** `{ubot_state}`
 **Python:** `{pyver.split()[0]}`
 **Pyrogram:** `{pyrover}`
 **MongoDB:** `{mongover}`
 **Platform:** `{sys.platform}`
-**Profiles:** [BOT](t.me/{BOT_USERNAME}) | [OWNER BOT](t.me/saint_foire)
+**Profiles:** [BOT](t.me/{BOT_USERNAME}) | [OWNER BOT](t.me/Freaking_tag)
 """
     answers.append(
         InlineQueryResultArticle(
             title="Alive",
-            description="Check Bot's Stats",
-            thumb_url="https://telegra.ph/file/5755d25e718851cdecacb.jpg",
+            description="Check Chrollo's Stats",
+            thumb_url="https://telegra.ph/file/637b2766011087a5d9109.jpg",
             input_message_content=InputTextMessageContent(
                 msg, disable_web_page_preview=True
             ),
@@ -373,11 +373,11 @@ async def lyrics_func(answers, text):
 
 async def tg_search_func(answers, text, user_id):
     if user_id not in DEV_USERS:
-        msg = "**ERROR**\n__THIS FEATURE IS ONLY FOR DEV USERS__"
+        msg = "**ERROR**\n__THIS FEATURE IS ONLY FOR TROUPE MEMBERS__"
         answers.append(
             InlineQueryResultArticle(
                 title="ERROR",
-                description="THIS FEATURE IS ONLY FOR SUDO USERS",
+                description="THIS FEATURE IS ONLY FOR ZODIACS",
                 input_message_content=InputTextMessageContent(msg),
             )
         )
@@ -533,11 +533,11 @@ async def speedtest_init(query):
     answers = []
     user_id = query.from_user.id
     if user_id not in DEV_USERS:
-        msg = "**ERROR**\n__THIS FEATURE IS ONLY FOR DEV USERS__"
+        msg = "**ERROR**\n__THIS FEATURE IS ONLY FOR TROUPE MEMEBERS__"
         answers.append(
             InlineQueryResultArticle(
                 title="ERROR",
-                description="THIS FEATURE IS ONLY FOR SUDO USERS",
+                description="THIS FEATURE IS ONLY FOR ZODIACS",
                 input_message_content=InputTextMessageContent(msg),
             )
         )

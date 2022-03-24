@@ -10,7 +10,7 @@ from pyrogram import filters
 
 from SiestaRobot import pbot as siesta_memer
 
-@unmei_memer.on_message(filters.command("meme"))
+@siesta_memer.on_message(filters.command("meme"))
 
 async def memes(client, message):
 

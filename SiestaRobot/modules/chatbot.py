@@ -12,7 +12,7 @@ from SiestaRobot.ex_plugins.chatbot import add_chat, get_session, remove_chat
 from SiestaRobot.utils.pluginhelper import admins_only, edit_or_reply
 from SiestaRobot.modules.language import gs
 
-url = "https://acobot-brainshop-ai-v1.p.rapidapi.com/get"
+url = "https://kukiapi.xyz/api/apikey=KUKItg111XlOZ/yuzuki/moezill"
 
 translator = Translator()
 

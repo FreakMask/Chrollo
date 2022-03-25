@@ -356,9 +356,9 @@ def info(update: Update, context: CallbackContext):
                     [
                         [
                             InlineKeyboardButton(
-                                "HP System", url="https://t.me/Troupe_Updates/6"),
+                                "HP System", url="https://t.me/TroupeUpdates/6"),
                             InlineKeyboardButton(
-                                "Troupes", url="https://t.me/Troupe_Updates/5")
+                                "Troupes", url="https://t.me/TroupeUpdates/5")
                         ],
                     ]
                 ),

@@ -18,7 +18,7 @@ async def memes(client, message):
 
         async with siesta_session.get(
 
-            "https://meme-api.herokuapp.com/gimme/wholesomememes"
+            "https://meme-api.herokuapp.com/gimme/wholesomememes/2"
 
         ) as resp:
 

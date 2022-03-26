@@ -7,11 +7,11 @@
 </p>
 
 <p align="center">
-<a href="https://t.me/Chrollo_Bot"> <img src="https://github.com/shiinobu/SiestaRobot/blob/siesta/SiestaRobot/resources/siesta-robot.svg" alt="Chrollo on Telegram" /> </a></br>
+<a href="https://t.me/Chrollo_Bot"> <img src="https://github.com/shiinobu/SiestaRobot/blob/siesta/SiestaRobot/resources/Chrollo-Lucifer.svg" alt="Chrollo on Telegram" /> </a></br>
 <a href="https://github.com/shiinobu/SiestaRobot/blob/master/LICENSE"> <img src="https://img.shields.io/badge/License-GPLv3-blueviolet?style=for-the-badge" alt="License" /> </a>
 <a href="https://makeapullrequest.com"> <img src="https://img.shields.io/badge/PRs-Welcome-yellow?style=for-the-badge" alt="PRs" /></a></br>
 <a href="https://www.python.org/"> <img src="https://img.shields.io/badge/Made%20With-Python-orange?style=for-the-badge&logo=python" alt="Python" /> </a>
-<a href="https://GitHub.com/FreakMask/SiestaRobot"> <img src="https://img.shields.io/badge/Maintained-No-lightgrey?style=for-the-badge" alt="Maintenance" /> </a>
+<a href="https://GitHub.com/FreakMask/Chrollo"> <img src="https://img.shields.io/badge/Maintained-No-lightgrey?style=for-the-badge" alt="Maintenance" /> </a>
 <a href="https://docs.sqlalchemy.org/en/14/"> <img src="https://img.shields.io/badge/SQL%20Alchemy-1.4.29-green?style=for-the-badge" alt="SQL Alchemy" /> </a><br>
 <a href="https://python-telegram-bot.org"> <img src="https://img.shields.io/badge/PTB-13.10-white?style=for-the-badge&logo=github" alt="Python Telegram Bot" /> </a>
 <a href="https://docs.telethon.dev"> <img src="https://img.shields.io/badge/Telethon-1.23.0-red?style=for-the-badge&logo=github" alt="Telethon" /> </a>
@@ -34,7 +34,7 @@
 </h2>
 
 <p align="center">
-<a href="https://t.me/Freaking_tag"> <img src="https://img.shields.io/badge/Vain-User-green?style=for-the-badge&logo=telegram" alt="Freak on Telegram" /> </a>
+<a href="https://t.me/Freaking_tag"> <img src="https://img.shields.io/badge/Freak-User-green?style=for-the-badge&logo=telegram" alt="Freak on Telegram" /> </a>
 <a href="https://t.me/Phantom_Troupes"> <img src="https://img.shields.io/badge/Support-Chat-green?style=for-the-badge&logo=telegram" alt="Support Chat" /> </a>
 <a href="https://t.me/TroupeUpdates"> <img src="https://img.shields.io/badge/Update-Channel-green?style=for-the-badge&logo=telegram" alt="Update Channel" /> </a>
 </p>

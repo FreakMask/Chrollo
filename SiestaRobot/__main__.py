@@ -87,7 +87,7 @@ def get_readable_time(seconds: int) -> str:
 SIESTA_IMG = "https://telegra.ph/file/c4e54bad39049a6afaca8.jpg"
 
 DONATE_STRING = """Heya, glad to hear you want to donate!
- You can support the project by contacting @saint_foire \
+ You can support the project by contacting @Freaking_tag\
  Supporting isnt always financial! \
  Those who cannot provide monetary support are welcome to help us develop the bot at ."""
 
@@ -461,7 +461,7 @@ def siesta_about_callback(update, context):
                 [
                     [
                         InlineKeyboardButton(text=gs(chat.id, "support_chat_link_button"), url="t.me/Phantom_Troupes"),
-                        InlineKeyboardButton(text=gs(chat.id, "updates_channel_link_button"), url="https://t.me/Troupe_Updates"),
+                        InlineKeyboardButton(text=gs(chat.id, "updates_channel_link_button"), url="https://t.me/TroupeUpdates"),
                     ],
                     [
                         InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="siesta_"),
@@ -481,8 +481,8 @@ def siesta_about_callback(update, context):
                         InlineKeyboardButton(text="Phantom Troupes", url="https://t.me/Phantom_Troupes"),
                     ],
                     [
-                        InlineKeyboardButton(text="Logs", url="https://t.me/Troupe_Headquaters"),
-                        InlineKeyboardButton(text="Updates", url="https://t.me/Troupe_Updates"),
+                        InlineKeyboardButton(text="Logs", url="https://t.me/TroupeHeadquaters"),
+                        InlineKeyboardButton(text="Updates", url="https://t.me/TroupeUpdates"),
                     ],
                     [
                         InlineKeyboardButton(text=gs(chat.id, "back_button"), callback_data="siesta_"),
@@ -817,7 +817,7 @@ def main():
         try:
             dispatcher.bot.sendMessage(
                 f"@{SUPPORT_CHAT}", 
-                f"""**[Spider Hear is Alive now](https://telegra.ph/file/e0476d15503157bfb7795.jpg)**""",
+                f"""**[Spider Head is Alive now](https://telegra.ph/file/e0476d15503157bfb7795.jpg)**""",
                 parse_mode=ParseMode.MARKDOWN
             )
         except Unauthorized:

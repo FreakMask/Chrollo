@@ -38,13 +38,13 @@ async def repo(_, message):
 **Telethon Version :** `{s}`
 **Pyrogram Version :** `{z}`
 
-**We are not giving away our repo!.**
+**We are not giving away our repo!.But Chrollo is created by SiestaBot's repo**
 """,
         reply_markup=InlineKeyboardMarkup(
             [
                 [
                     InlineKeyboardButton(
-                        "Logs", url="https://t.me/Troupe_Headquaters"), 
+                        "Logs", url="https://t.me/TroupeHeadquaters"), 
                     InlineKeyboardButton(
                         "Support", url="https://t.me/Phantom_Troupes")
                 ]

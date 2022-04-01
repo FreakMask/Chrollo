@@ -301,7 +301,7 @@ def ungban(update: Update, context: CallbackContext):
         message.reply_text("This user is not murdered!")
         return
 
-    message.reply_text(f"I'll pity {user_chat.first_name} with a second chance globally.")
+    message.reply_text(f"Okay if you insist I'll give {user_chat.first_name} a second chance globally, chotto reincarnating.")
 
     start_time = time.time()
     datetime_fmt = "%Y-%m-%dT%H:%M"
@@ -535,7 +535,7 @@ def __migrate__(old_chat_id, new_chat_id):
 
 
 def __chat_settings__(chat_id, user_id):
-    return f"This chat is enforcing *gbans*: `{sql.does_chat_gban(chat_id)}`."
+    return f"This chat is enforcing *murders*: `{sql.does_chat_gban(chat_id)}`."
 
 
 def helps(chat):

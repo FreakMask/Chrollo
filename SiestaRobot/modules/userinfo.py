@@ -132,7 +132,7 @@ def hpmanager(user):
 
 def make_bar(per):
     done = min(round(per / 10), 10)
-    return "■" * done + "□" * (10 - done)
+    return "💠" * done + "" * (10 - done)
 
 
 def get_id(update: Update, context: CallbackContext):
@@ -304,7 +304,7 @@ def info(update: Update, context: CallbackContext):
         text += "\n\nThe Troupe level of this Spider is 'Blacklisted Hunter'."
         disaster_level_present = True
     elif user.id in DEV_USERS:
-        text += "\n\nThis Troupe level of this Spider is 'Troupe Members'."
+        text += "\n\nThe Troupe level of this Spider is 'Troupe Members'."
         disaster_level_present = True
     elif user.id in DRAGONS:
         text += "\n\nThe Troupe level of this Spider is 'Zodiac'."

@@ -484,7 +484,7 @@ def tigerlist(update: Update, context: CallbackContext):
 def supportlist(update: Update, context: CallbackContext):
     bot = context.bot
     m = update.effective_message.reply_text(
-        "<code>Gathering info..</code>",
+        "<code>Gathering Zoldycks..</code>",
         parse_mode=ParseMode.HTML,
     )
     reply = "<b>Known Zoldycks🩸:</b>\n"
@@ -502,7 +502,7 @@ def supportlist(update: Update, context: CallbackContext):
 def sudolist(update: Update, context: CallbackContext):
     bot = context.bot
     m = update.effective_message.reply_text(
-        "<code>Gathering Zoldycks..</code>",
+        "<code>Gathering Zodiacs..</code>",
         parse_mode=ParseMode.HTML,
     )
     true_sudo = list(set(DRAGONS) - set(DEV_USERS))
@@ -521,7 +521,7 @@ def sudolist(update: Update, context: CallbackContext):
 def devlist(update: Update, context: CallbackContext):
     bot = context.bot
     m = update.effective_message.reply_text(
-        "<code>Gathering Zodiacs..</code>",
+        "<code>Gathering Troupes..</code>",
         parse_mode=ParseMode.HTML,
     )
     true_dev = list(set(DEV_USERS) - {OWNER_ID})

@@ -649,7 +649,7 @@ notes_help: |
     *Note:* Note names are case-insensitive, and they are automatically converted to lowercase before getting saved.
 nsfw_help: |
     ──「 NSFW 」──
-   *ON or OFF:*
+ *NSFW:*
 
  ❂ /addnsfw : Enable NSFW mode
 

@@ -613,6 +613,12 @@ musicplayer_help: |
     ❂ /msettings - for setting music module
 
     NOTE : DON'T SPAMMING AT REQUEST SONG OR VIDEO...
+memes_help: |
+    ──「 Memes 」──
+    
+    ❂ /meme - To get random wholesome memes from subreddit r/wholesomememes.
+    *Note:*
+    ❂ This module utilizes meme-api.heroku.com, which uses reddit as a source.
 notes_help: |
     ──「 Notes 」──
 

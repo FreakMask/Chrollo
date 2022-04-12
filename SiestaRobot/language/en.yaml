@@ -647,6 +647,12 @@ notes_help: |
     ❂ /removeallnotes*:* removes all notes from the group
 
     *Note:* Note names are case-insensitive, and they are automatically converted to lowercase before getting saved.
+pokedex_help: |
+    ──「 Pokedex 」──
+    
+    ❂ /pokedex <pokemon name>*:* It gathers information about the Pokemon, if the name is given correctly.
+    *Note:*
+    ❂ Spell the Pokemon name properly or else won't gonna work.
 reports_help: |
     ──「 Report 」──
 

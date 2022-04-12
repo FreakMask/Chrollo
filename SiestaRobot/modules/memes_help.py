@@ -4,4 +4,4 @@ def helps(chat):
 
     return gs(chat, "memes_help")
 
-__mod_name__ = "Memes"
+__mod_name__ ="Memes"

@@ -1,4 +1,4 @@
-from SiestaRobot import.language import gs
+from SiestaRobot.modules.language import gs
 
 def helps(chats):
   

@@ -114,7 +114,7 @@ async def logo_gen(event):
         await tbot.send_file(
             event.chat_id,
             file=flnme,
-            caption="Logo by [Siesta Robot](https://t.me/Siestaxbot)",
+            caption="Logo by [Chrollo 🕸️ Lucifer](https://t.me/Chrollo_Bot)",
             force_document=False,
         )
         os.remove(flnme)
